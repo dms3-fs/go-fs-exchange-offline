@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	blocks "github.com/ipfs/go-block-format"
-	cid "github.com/ipfs/go-cid"
-	ds "github.com/ipfs/go-datastore"
-	ds_sync "github.com/ipfs/go-datastore/sync"
-	blockstore "github.com/ipfs/go-ipfs-blockstore"
-	blocksutil "github.com/ipfs/go-ipfs-blocksutil"
-	u "github.com/ipfs/go-ipfs-util"
+	blocks "github.com/dms3-fs/go-block-format"
+	cid "github.com/dms3-fs/go-cid"
+	ds "github.com/dms3-fs/go-datastore"
+	ds_sync "github.com/dms3-fs/go-datastore/sync"
+	blockstore "github.com/dms3-fs/go-fs-blockstore"
+	blocksutil "github.com/dms3-fs/go-fs-blocksutil"
+	u "github.com/dms3-fs/go-fs-util"
 )
 
 func TestBlockReturnsErr(t *testing.T) {
